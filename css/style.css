@@ -1,4 +1,4 @@
-	@font-face {
+		@font-face {
 		font-family: EuropeExt;
 		src: url(/sources/fonts/EuropeExt Normal.otf);
 	}
@@ -833,7 +833,12 @@
 	.c-container1, .c-container2{
 		height: 350px;
 	}
+	.margin-block{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
 	.margin-block img{
+		width: 10%;
 		height: auto;
 	}
 	.c1, .c2{
@@ -847,6 +852,11 @@
 	}
 	.c-container2{
 		margin-left: 0px;
+	}
+	.task-flex-container{
+		width: 75%;
+		margin-left: 8%;
+		margin-right: auto;
 	}
 	.civil-list{
 		padding-right: 10px;
@@ -873,7 +883,7 @@
 		margin-top: 0px;
 	}
 	.compare-margin-block-flex img{
-		width: 100%;
+		width: 50%;
 		height: auto;
 	}
 	.task-container1{
